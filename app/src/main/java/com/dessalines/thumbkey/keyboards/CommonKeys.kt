@@ -324,6 +324,7 @@ val SPACEBAR_PEDRAL_TYPESPLIT_BOTTOM_KEY_ITEM =
         top = KeyC("-", color = MUTED),
         bottom = KeyC(".", color = MUTED),
         bottomLeft = KeyC("*", color = MUTED),
+        bottomRight = KeyC("_", color = MUTED),
     )
 
 val SPACEBAR_ALL_SYMBOLS =
