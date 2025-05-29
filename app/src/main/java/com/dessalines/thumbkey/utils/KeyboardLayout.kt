@@ -179,6 +179,7 @@ import com.dessalines.thumbkey.keyboards.KB_UK_MESSAGEASE_SYMBOLS
 import com.dessalines.thumbkey.keyboards.KB_UK_RU_MESSAGEASE_SYMBOLS
 import com.dessalines.thumbkey.keyboards.KB_UK_THUMBKEY
 import com.dessalines.thumbkey.keyboards.KB_VN_THUMBKEY
+import com.dessalines.thumbkey.keyboards.KB_FR_PEDRAL_TYPESPLIT
 
 // Make sure new keyboards are added AT THE END of this list, and have a higher index.
 // DO NOT put them in the middle of the list!
@@ -364,4 +365,5 @@ enum class KeyboardLayout(
     ENThumbkeyFlippedNumpad(KB_EN_THUMBKEY_FLIPPED_NUMPAD),
     GRThumbKeyNormal(KB_GRNORM_THUMBKEY),
     GRNormThumbKeySymbols(KB_GRNORM_THUMBKEY_SYMBOLS),
+    FRPedralCustomTypeSplit(KB_FR_PEDRAL_TYPESPLIT)
 }

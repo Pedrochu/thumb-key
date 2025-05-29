@@ -292,11 +292,35 @@ val SPACEBAR_TYPESPLIT_MIDDLE_KEY_ITEM =
         nextTapActions = SPACEBAR_NEXT_TAP_ACTIONS,
         backgroundColor = SURFACE_VARIANT,
     )
+
+val SPACEBAR_PEDRAL_TYPESPLIT_MIDDLE_KEY_ITEM =
+    KeyItemC(
+        center = SPACEBAR_CENTER_KEYC,
+        swipeType = EIGHT_WAY,
+        right = KeyC("/", color = MUTED),
+        top = KeyC("'", color = MUTED),
+        topLeft = KeyC("\"", color = MUTED),
+        left = KeyC("\\", color = MUTED),
+        bottom = KeyC(",", color = MUTED),
+        nextTapActions = SPACEBAR_NEXT_TAP_ACTIONS,
+        backgroundColor = SURFACE_VARIANT,
+    )
+
 val SPACEBAR_TYPESPLIT_BOTTOM_KEY_ITEM =
     SPACEBAR_TYPESPLIT_MIDDLE_KEY_ITEM.copy(
         swipeType = EIGHT_WAY,
         left = SPACEBAR_LEFT_KEYC,
         right = SPACEBAR_RIGHT_KEYC,
+        top = KeyC("-", color = MUTED),
+        bottom = KeyC(".", color = MUTED),
+        bottomLeft = KeyC("*", color = MUTED),
+    )
+
+val SPACEBAR_PEDRAL_TYPESPLIT_BOTTOM_KEY_ITEM =
+    SPACEBAR_TYPESPLIT_MIDDLE_KEY_ITEM.copy(
+        swipeType = EIGHT_WAY,
+        left = KeyC("(", color = MUTED),
+        right = KeyC(")", color = MUTED),
         top = KeyC("-", color = MUTED),
         bottom = KeyC(".", color = MUTED),
         bottomLeft = KeyC("*", color = MUTED),
@@ -385,8 +409,18 @@ val SPACEBAR_FRENCH_TYPESPLIT_MIDDLE_KEY_ITEM =
         nextTapActions = SPACEBAR_FRENCH_NEXT_TAP_ACTIONS,
     )
 
+val SPACEBAR_FRENCH_PEDRAL_TYPESPLIT_MIDDLE_KEY_ITEM =
+    SPACEBAR_PEDRAL_TYPESPLIT_MIDDLE_KEY_ITEM.copy(
+        nextTapActions = SPACEBAR_FRENCH_NEXT_TAP_ACTIONS,
+    )
+
 val SPACEBAR_FRENCH_TYPESPLIT_BOTTOM_KEY_ITEM =
     SPACEBAR_TYPESPLIT_BOTTOM_KEY_ITEM.copy(
+        nextTapActions = SPACEBAR_FRENCH_NEXT_TAP_ACTIONS,
+    )
+
+val SPACEBAR_FRENCH_PEDRAL_TYPESPLIT_BOTTOM_KEY_ITEM =
+    SPACEBAR_PEDRAL_TYPESPLIT_BOTTOM_KEY_ITEM.copy(
         nextTapActions = SPACEBAR_FRENCH_NEXT_TAP_ACTIONS,
     )
 
