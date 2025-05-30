@@ -120,8 +120,8 @@ val KB_FR_PEDRAL_TYPESPLIT_SHIFTED =
                 KeyItemC(
                     center = KeyC("D", size = LARGE),
                     swipeType = TWO_WAY_VERTICAL,
-                    bottom = KeyC("W"),
-                    top = KeyC("V"),
+                    bottom = KeyC("V"),
+                    top = KeyC("W"),
                 ),
                 KeyItemC(
                     center = KeyC("T", size = LARGE),
@@ -212,7 +212,7 @@ val KB_FR_PEDRAL_TYPESPLIT_SHIFTED =
             ),
             listOf(
                 NUMERIC_KEY_ITEM_ALT,
-                BACKSPACE_TYPESPLIT_KEY_ITEM,
+                BACKSPACE_TYPESPLIT_SHIFTED_KEY_ITEM,
                 RETURN_KEY_ITEM,
             ),
         ),
