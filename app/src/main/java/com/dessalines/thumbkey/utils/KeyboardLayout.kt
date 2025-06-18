@@ -12,6 +12,9 @@ import com.dessalines.thumbkey.keyboards.KB_CA_THUMBKEY
 import com.dessalines.thumbkey.keyboards.KB_CZ_MESSAGEASE_PROGRAMMING
 import com.dessalines.thumbkey.keyboards.KB_DA_THUMBKEY
 import com.dessalines.thumbkey.keyboards.KB_DE_MESSAGEASE
+import com.dessalines.thumbkey.keyboards.KB_DE_MESSAGEASE_INVERTED_NUMPAD
+import com.dessalines.thumbkey.keyboards.KB_DE_MESSAGEASE_LEFT
+import com.dessalines.thumbkey.keyboards.KB_DE_MESSAGEASE_LEFT_INVERTED_NUMPAD
 import com.dessalines.thumbkey.keyboards.KB_DE_MESSAGEASE_SYMBOLS
 import com.dessalines.thumbkey.keyboards.KB_DE_NORDIC_MESSAGEASE
 import com.dessalines.thumbkey.keyboards.KB_DE_THUMBKEY
@@ -172,6 +175,7 @@ import com.dessalines.thumbkey.keyboards.KB_SV_THUMBKEY
 import com.dessalines.thumbkey.keyboards.KB_T9
 import com.dessalines.thumbkey.keyboards.KB_TOK_SITELEN_THUMBKEY_EMOJI
 import com.dessalines.thumbkey.keyboards.KB_TOK_THUMBKEY
+import com.dessalines.thumbkey.keyboards.KB_TR_ARTI
 import com.dessalines.thumbkey.keyboards.KB_TR_THUMBKEY
 import com.dessalines.thumbkey.keyboards.KB_TR_TYPESPLIT
 import com.dessalines.thumbkey.keyboards.KB_UK_BY_RU_THUMBKEY
@@ -365,5 +369,9 @@ enum class KeyboardLayout(
     ENThumbkeyFlippedNumpad(KB_EN_THUMBKEY_FLIPPED_NUMPAD),
     GRThumbKeyNormal(KB_GRNORM_THUMBKEY),
     GRNormThumbKeySymbols(KB_GRNORM_THUMBKEY_SYMBOLS),
-    FRPedralCustomTypeSplit(KB_FR_PEDRAL_TYPESPLIT)
+    FRPedralCustomTypeSplit(KB_FR_PEDRAL_TYPESPLIT),
+    DEMessageEaseInvertedNumpad(KB_DE_MESSAGEASE_INVERTED_NUMPAD),
+    DEMessagEaseLeft(KB_DE_MESSAGEASE_LEFT),
+    DEMessagEaseLeftInvertedNumpad(KB_DE_MESSAGEASE_LEFT_INVERTED_NUMPAD),
+    TRArti(KB_TR_ARTI),
 }

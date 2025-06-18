@@ -13,8 +13,8 @@ android {
         applicationId = "com.dessalines.thumbkey"
         minSdk = 24
         targetSdk = 35
-        versionCode = 151
-        versionName = "4.0.33"
+        versionCode = 153
+        versionName = "4.0.35"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -94,7 +94,7 @@ dependencies {
     implementation("com.github.dessalines:room-db-export-import:0.1.0")
 
     // Compose BOM
-    implementation(platform("androidx.compose:compose-bom:2025.05.01"))
+    implementation(platform("androidx.compose:compose-bom:2025.06.00"))
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.material:material-icons-extended:1.7.8")
@@ -135,10 +135,10 @@ dependencies {
     implementation("androidx.room:room-ktx:2.7.1")
 
     // App compat
-    implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation("androidx.appcompat:appcompat:1.7.1")
 
     // YAML serialization
-    implementation("com.charleskorn.kaml:kaml:0.78.0")
+    implementation("com.charleskorn.kaml:kaml:0.82.0")
 
     // Kotlin Reflect
     implementation("org.jetbrains.kotlin:kotlin-reflect:2.1.21")
